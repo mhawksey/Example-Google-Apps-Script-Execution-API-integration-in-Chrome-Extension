@@ -14,7 +14,7 @@ If you have developed applications using the Execution API with HTML/JavaScript 
 
 There are solutions for these on Stack Overflow ([like this one](http://stackoverflow.com/questions/18681803/loading-google-api-javascript-client-library-into-chrome-extension)), but I struggled to get those to work. As the Execution API relies on the user having a Google Account using the Chrome Identity API appears to be a better solution.
 
-##Testing it out
+## Testing it out
 
 The quick and easy to get the code running on your computer.
 
@@ -24,16 +24,18 @@ The quick and easy to get the code running on your computer.
 1. Authenticate extension and the Call Execution API
 
 <div style="text-align:center">
+
 ![Execution API Example popup](assests/Execution-API-Example-popup.PNG)
+
 </div>
 
-##How it works
+## How it works
 When the popup is opened the extension silently checks/requests a authentication token. If a token is present the authenticate button is disabled, otherwise the button is enabled and when clicked starts the interactive authentication flow. 
 
-##Notes on setting up
+## Notes on setting up
 For notes on setup and usage [read this blog post](https://mashe.hawksey.info/?p=17506)
 
-##Acknowledgements
+## Acknowledgements
 This project is based on:
 
 * [Identity example in Chrome Apps Samples](https://github.com/GoogleChrome/chrome-app-samples/tree/master/samples/identity)
