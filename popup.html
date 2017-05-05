@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Execution API Example</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/popup.js"></script>
+    <script src="js/sample_support.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Execution API Example</h1>
+      <div class="links">
+        Learn more:
+          <a target="_blank" href="https://mashe.hawksey.info/?p=17506">Blog Post</a>
+          <a target="_blank" href="https://github.com/mhawksey/Example-Google-Apps-Script-Execution-API-integration-in-Chrome-Extension">Source</a>
+      </div>
+      <hr>
+    </div>
+    <div class="flows">
+      <h2>Execution API Integration</h2>
+      <div class="flow">
+        <button id="signin">Authenticate</button>
+		<button id="getxhr" disabled>Call Execution API</button>
+        <button id="revoke" disabled>Revoke token</button>
+        <div id="exec_info"></div>
+      </div>
+    </div>
+   <div class="log">
+      <textarea id="__sample_support_logarea" disabled></textarea>
+	   <div id="exec_info"><p><strong>Data to send via Execution API</strong> (data to be sent on Call Execution API) <textarea id="exec_data">[["Rank","NOC","Gold","Silver","Bronze","Total"],[1,"United States (USA)",46,37,38,121],[2,"Great Britain (GBR)",27,23,17,67],[3,"China (CHN)",26,18,26,70]]</textarea><span id="exec_result"></span></p></div>
+   </div>
+  </body>
+</html>
