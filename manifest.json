@@ -22,7 +22,7 @@
    "oauth2":{  
       // client_id below is specifc to the application key. Follow the 
     // documentation to obtain one for your app. 
-    "client_id":"953092221824-ucfucm55ringgfq4nfn1jireib2jdpq7.apps.googleusercontent.com",
+    "client_id":"386958695873-7vf3j98q1uiepat4d01laipegih1kng6.apps.googleusercontent.com",
       "scopes":[  
          "https://www.googleapis.com/auth/spreadsheets"
       ]

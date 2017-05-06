@@ -13,7 +13,7 @@
 
 var executionAPIExample = (function() {
 
-	var SCRIPT_ID='15Cm29dXxHBpSJUJoOA845DttVhZ3GzWcmyk-oACjZqjXsKU50QESVLfO'; // Apps Script script id
+	var SCRIPT_ID='1mjZg2epHVn6i0ftTBj9a2nmkpMunoY4nNTvCoQXAMk-r0oEBLmLFnZCx'; // Apps Script script id
 	var STATE_START=1;
 	var STATE_ACQUIRING_AUTHTOKEN=2;
 	var STATE_AUTHTOKEN_ACQUIRED=3;
